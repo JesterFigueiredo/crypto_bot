@@ -1,1 +1,1 @@
-node main.mjs
+web: node main.mjs
