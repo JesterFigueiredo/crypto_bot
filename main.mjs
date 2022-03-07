@@ -35,7 +35,7 @@ prom.then((news)=>{
 }).then((news)=>{
     send(news);
 }).catch((err)=>{
-    fetch(telegram_link+api_key+"/sendMessage?chat_id=1636761388&text="+err);
+    fetch(telegram_link+api_key+"/sendMessage?chat_id=-1001253756287&text="+err);
 })
 
 //1636761388
