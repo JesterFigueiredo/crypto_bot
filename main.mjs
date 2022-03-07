@@ -25,7 +25,7 @@ function get_random_news(news){
 
 
 function send(news){
-    fetch(telegram_link+api_key+"/sendMessage?chat_id=1636761388&text="+news.title+"\r\n "+news.url);
+    fetch(telegram_link+api_key+"/sendMessage?chat_id=-1001253756287&text="+news.title+"\r\n "+news.url);
 }
 
 prom.then((news)=>{
